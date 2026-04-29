@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --page-scale: min(1, 100vw / 1920);
+  color: #0d0d0d;
+  background: #f5f5f5;
+  font-family: "HarmonyOS Sans SC", "HarmonyOS_Sans_SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  background: #f5f5f5;
+}
+
+main {
+  width: 100vw;
+  min-height: calc(2562px * var(--page-scale));
+}
+
+code {
+  display: inline-block;
+  border-radius: 4px;
+  background: #eef3f0;
+  padding: 0 8px;
+  color: #395c72;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+}
