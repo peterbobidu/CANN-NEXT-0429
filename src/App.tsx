@@ -2,63 +2,63 @@ import { useState } from "react";
 
 const assets = {
   hero:
-    "https://www.figma.com/api/mcp/asset/e4012213-ce11-4ec0-b2fb-2df2e694cca5",
+    "https://www.figma.com/api/mcp/asset/10aafdcb-008e-4050-95b9-72d1cfde9177",
   cardApi:
-    "https://www.figma.com/api/mcp/asset/a5818f0b-94ca-4124-91d7-e53c025b0b13",
+    "https://www.figma.com/api/mcp/asset/31b3bce7-989c-4b07-9924-495642c51b7f",
   cardTbe:
-    "https://www.figma.com/api/mcp/asset/161e6c59-a0c9-48a6-a446-95b23ed97e40",
+    "https://www.figma.com/api/mcp/asset/636029a3-a727-4b65-97be-76a4c116e208",
   cardMind:
-    "https://www.figma.com/api/mcp/asset/dd72720f-c68b-44ee-9579-9b65daa038b4",
+    "https://www.figma.com/api/mcp/asset/11992054-44da-4f3d-8583-799742b5900e",
   cardOptimize:
-    "https://www.figma.com/api/mcp/asset/9b620519-dfb9-4554-9562-579f1d27b00f",
+    "https://www.figma.com/api/mcp/asset/12eca883-6e40-4845-979e-e3e25eb6c4cd",
   cardDistributed:
-    "https://www.figma.com/api/mcp/asset/f2e0f97c-2c1c-4160-8c3b-a4e045518fc4",
+    "https://www.figma.com/api/mcp/asset/c8bcee10-6f11-4d6d-b2eb-c4e73b472b6d",
   cardPerformance:
-    "https://www.figma.com/api/mcp/asset/3af1cce4-3ee4-43cf-8d08-98d354f0550a",
+    "https://www.figma.com/api/mcp/asset/42059e93-71f7-48e2-b2e7-06434a657a2b",
   docsIllustration:
-    "https://www.figma.com/api/mcp/asset/368a410e-2b50-4a11-b620-e4b9439d7a38",
+    "https://www.figma.com/api/mcp/asset/ad961aea-ff2b-49ff-a465-ed109013199d",
   police:
-    "https://www.figma.com/api/mcp/asset/03d96a4b-6a31-40c5-b7a3-76af024e3a33",
+    "https://www.figma.com/api/mcp/asset/02156717-0f02-463a-ad8f-9d248ba2802a",
   cannWord:
-    "https://www.figma.com/api/mcp/asset/d5080a01-e8ab-4b6a-a0cd-066f536b13e5",
+    "https://www.figma.com/api/mcp/asset/3f775bea-a2a6-4aa9-a942-d2743c41c5c3",
   logoAll:
-    "https://www.figma.com/api/mcp/asset/ba4e137b-2f4b-48d7-b79b-3a7c5c685b8f",
+    "https://www.figma.com/api/mcp/asset/85d99d41-49c9-4a93-927d-39d6443b4e78",
   logoWord:
-    "https://www.figma.com/api/mcp/asset/eb7d2d1a-ed6a-464d-b57f-c6dc54f34ae9",
+    "https://www.figma.com/api/mcp/asset/af399fa3-f942-4ee3-aa81-0551a8b64bc8",
   logoMark:
-    "https://www.figma.com/api/mcp/asset/3df92804-b3d3-49ec-a87f-6d34ee8095ce",
+    "https://www.figma.com/api/mcp/asset/c8a5a89d-e3b9-45ec-adba-9177a95773a0",
   iconApi:
-    "https://www.figma.com/api/mcp/asset/1b854a0b-b4bc-460f-af2a-af6692b7f6d3",
+    "https://www.figma.com/api/mcp/asset/79245e45-8345-4b6c-9610-e83a209e3432",
   iconDev:
-    "https://www.figma.com/api/mcp/asset/75bd68e1-8188-4fca-b4c4-81c3165d2b14",
+    "https://www.figma.com/api/mcp/asset/e95fdb84-cd69-4450-8ff6-340fda954d5c",
   iconMind:
-    "https://www.figma.com/api/mcp/asset/b76b5bd6-7a64-4c6e-ad00-a97e201f8a19",
+    "https://www.figma.com/api/mcp/asset/bcaf579b-5167-4719-b57a-6120b4aa0e2e",
   iconFilter:
-    "https://www.figma.com/api/mcp/asset/67934826-5315-47ad-9b16-5bf006a1015a",
+    "https://www.figma.com/api/mcp/asset/9caac2c7-3b70-4422-958a-2249b33c7966",
   iconConfig:
-    "https://www.figma.com/api/mcp/asset/c5c512f3-2aab-4cc7-8353-13a6f7ea452a",
+    "https://www.figma.com/api/mcp/asset/58bdf5ce-7a7d-4c52-9b36-d1f87f076b6d",
   iconMetric:
-    "https://www.figma.com/api/mcp/asset/d4785597-55aa-4f0e-a610-1dabe0547be8",
+    "https://www.figma.com/api/mcp/asset/cf02d1d6-d2ea-4e84-9b17-868ee3563bef",
   assistantIcon:
-    "https://www.figma.com/api/mcp/asset/84499326-99c4-4f1b-a0e2-b2873cbe56f0",
+    "https://www.figma.com/api/mcp/asset/707f7fde-4199-40d4-8b1a-6220bd1d1031",
   socialOne:
-    "https://www.figma.com/api/mcp/asset/4bafbb53-daa0-4baa-8fb9-4f1a5494e1f3",
+    "https://www.figma.com/api/mcp/asset/7ab82fe7-e16d-4f35-b603-39dcf29e2f81",
   socialTwo:
-    "https://www.figma.com/api/mcp/asset/4334f6ce-1b17-46a6-98ea-2b2b6e454e09",
+    "https://www.figma.com/api/mcp/asset/29a220d5-b60c-4ec5-b9fd-b6486a1eec95",
   socialThree:
-    "https://www.figma.com/api/mcp/asset/beeb3de7-1924-4a8a-9883-1712ea60aa5f",
+    "https://www.figma.com/api/mcp/asset/54e4b5fe-00d4-475b-99ce-8ecfb9bf97ee",
   socialFour:
-    "https://www.figma.com/api/mcp/asset/113dab85-3daa-4e17-af56-83574e7dcd5f",
+    "https://www.figma.com/api/mcp/asset/ccaca294-95e7-4170-9c18-19b770aea8c0",
   entryProblem:
-    "https://www.figma.com/api/mcp/asset/5338ea2d-3cdc-46c4-b73c-f1fd69037d6d",
+    "https://www.figma.com/api/mcp/asset/183763f7-5da3-4d72-98ce-e9b819ce0b52",
   entryStudy:
-    "https://www.figma.com/api/mcp/asset/09ad0fef-dca5-473c-a99b-eee00d3a2db2",
+    "https://www.figma.com/api/mcp/asset/e5cdb8d3-2668-44b6-8066-65826a7fccac",
   entryResource:
-    "https://www.figma.com/api/mcp/asset/10d7754d-97ad-4c22-bd53-6ec3c578eba9",
+    "https://www.figma.com/api/mcp/asset/40f4dd67-3c07-4615-9de9-4367a2212cb3",
   searchBase:
-    "https://www.figma.com/api/mcp/asset/75022598-14d2-470c-a6b5-defb47f3c4ef",
+    "https://www.figma.com/api/mcp/asset/eb30066b-d152-4e0e-9d27-aa95353ad6b2",
   searchShape:
-    "https://www.figma.com/api/mcp/asset/0bda8350-f64a-4a17-a308-cb3ef8f78842",
+    "https://www.figma.com/api/mcp/asset/c9299eb5-2c63-4cb6-bf3d-6698e60884fc",
 };
 
 const navItems = ["主页", "下载", "开发", "文档", "学习", "社区", "动态"];
@@ -74,8 +74,14 @@ type FeatureCardItem = {
   text: string;
   image: string;
   icon: string;
-  imageClass: string;
+  imageWidth: number;
+  imageHeight: number;
+  frameHeight: number;
+  imageOffsetY: number;
+  imageFlipClass?: string;
   bodyWidth: string;
+  bodyTop: string;
+  overlayTop: string;
   iconTop?: string;
 };
 
@@ -85,32 +91,53 @@ const featureCards: FeatureCardItem[] = [
     text: "统一的 C/C++ 编程接口，直接调用昇腾 NPU 的计算资源，实现极致性能。",
     image: assets.cardApi,
     icon: assets.iconApi,
-    imageClass: "h-[729px] w-[973px] left-[-143px] top-[-268px]",
+    imageWidth: 973,
+    imageHeight: 729,
+    frameHeight: 194,
+    imageOffsetY: 0,
     bodyWidth: "w-[472px]",
+    bodyTop: "top-[208px]",
+    overlayTop: "top-[196px]",
   },
   {
     title: "TBE 算子开发",
     text: "Tensor Boost Engine 提供 DSL 和 TIK 两种算子开发方式，轻松实现自定义算子。",
     image: assets.cardTbe,
     icon: assets.iconDev,
-    imageClass: "h-[516px] w-[775px] left-[-257px] top-[-141px] rotate-180 scale-y-[-1]",
+    imageWidth: 775,
+    imageHeight: 516,
+    frameHeight: 194,
+    imageOffsetY: 20,
+    imageFlipClass: "rotate-180 -scale-y-100",
     bodyWidth: "w-[472px]",
+    bodyTop: "top-[208px]",
+    overlayTop: "top-[196px]",
   },
   {
     title: "MindSpore 深度集成",
     text: "与 MindSpore 框架深度融合，同时支持 PyTorch / TensorFlow 等主流框架。",
     image: assets.cardMind,
     icon: assets.iconMind,
-    imageClass: "h-[498px] w-[747px] left-[-229px] top-[-250px]",
+    imageWidth: 747,
+    imageHeight: 498,
+    frameHeight: 192,
+    imageOffsetY: -97,
     bodyWidth: "w-[454px]",
+    bodyTop: "top-[206px]",
+    overlayTop: "top-[194px]",
   },
   {
     title: "模型转换与优化",
     text: "ATC 工具将训练模型转换为昇腾离线模型（.om），自动进行算子融合与优化。",
     image: assets.cardOptimize,
     icon: assets.iconFilter,
-    imageClass: "h-[539px] w-[719px] left-[-22px] top-[-196px]",
+    imageWidth: 719,
+    imageHeight: 539,
+    frameHeight: 194,
+    imageOffsetY: -24,
     bodyWidth: "w-[454px]",
+    bodyTop: "top-[208px]",
+    overlayTop: "top-[196px]",
     iconTop: "top-8",
   },
   {
@@ -118,16 +145,26 @@ const featureCards: FeatureCardItem[] = [
     text: "Profiling 工具链提供细粒度的 NPU 性能分析，快速定位性能瓶颈。",
     image: assets.cardPerformance,
     icon: assets.iconMetric,
-    imageClass: "h-[475px] w-[633px] left-0 top-[-188px]",
+    imageWidth: 633,
+    imageHeight: 475,
+    frameHeight: 192,
+    imageOffsetY: -47,
     bodyWidth: "w-[472px]",
+    bodyTop: "top-[208px]",
+    overlayTop: "top-[194px]",
   },
   {
     title: "分布式训练支持",
     text: "HCCL 通信库支持昇腾集群训练，助力千亿参数大模型分布式训练。",
     image: assets.cardDistributed,
     icon: assets.iconConfig,
-    imageClass: "h-[315px] w-[560px] left-[-22px] top-[-85px]",
+    imageWidth: 560,
+    imageHeight: 315,
+    frameHeight: 192,
+    imageOffsetY: -24,
     bodyWidth: "w-[472px]",
+    bodyTop: "top-[208px]",
+    overlayTop: "top-[194px]",
   },
 ] as const;
 
@@ -252,20 +289,34 @@ function SectionTitle({ label, title, text }: { label: string; title: string; te
 function FeatureCard({ card }: { card: FeatureCardItem }) {
   return (
     <article className="group relative h-80 w-[520px] overflow-hidden rounded-[20px] bg-white shadow-[0_4px_12px_rgba(0,0,0,0.06)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_40px_rgba(68,92,180,0.16)]">
-      <div className="absolute left-px top-px h-[194px] w-[516px] overflow-hidden rounded-t-[18px]">
-        <img
-          className={`absolute max-w-none object-cover transition-transform duration-500 group-hover:scale-[1.025] ${card.imageClass}`}
-          src={card.image}
-          alt=""
-        />
+      <div
+        className="absolute left-px top-px w-[516px] overflow-hidden rounded-t-[18px]"
+        style={{ height: `${card.frameHeight}px` }}
+      >
+        <div
+          className="absolute left-1/2 top-1/2"
+          style={{
+            width: `${card.imageWidth}px`,
+            height: `${card.imageHeight}px`,
+            transform: `translate(-50%, calc(-50% + ${card.imageOffsetY}px))`,
+          }}
+        >
+          <div className="h-full w-full transition-transform duration-500 group-hover:scale-[1.025]">
+            <img
+              className={`h-full w-full max-w-none object-cover ${card.imageFlipClass ?? ""}`}
+              src={card.image}
+              alt=""
+            />
+          </div>
+        </div>
       </div>
-      <div className="absolute bottom-0 left-0 h-[126px] w-full bg-gradient-to-b from-[#f0f2fe]/0 to-[#f0f2fe] to-[69.27%]" />
+      <div className={`absolute left-0 h-[126px] w-full bg-gradient-to-b from-[#f0f2fe]/0 to-[#f0f2fe] to-[69.27%] ${card.overlayTop}`} />
       <div
         className={`absolute left-6 ${card.iconTop ?? "top-6"} flex h-12 w-12 items-center justify-center rounded-xl border-2 border-white/80 bg-white/30 shadow-[0_4px_2px_rgba(0,0,0,0.06)] backdrop-blur-[3.65px] transition-all duration-300 group-hover:border-white group-hover:bg-white/45 group-hover:shadow-[0_10px_24px_rgba(84,104,205,0.16)]`}
       >
         <img className="h-6 w-6 transition-transform duration-300 group-hover:scale-110" src={card.icon} alt="" />
       </div>
-      <div className={`absolute left-6 top-[208px] flex ${card.bodyWidth} flex-col gap-2`}>
+      <div className={`absolute left-6 ${card.bodyTop} flex ${card.bodyWidth} flex-col gap-2`}>
         <h3 className="text-2xl font-medium leading-8 text-[#0d0d0d] transition-colors duration-200 group-hover:text-[#1f376d]">
           {card.title}
         </h3>
@@ -305,15 +356,15 @@ function AssistantSection() {
         text="内置 AI 助手，直接提问即可获得精准的 API 说明、代码示例和最佳实践。"
       />
       <div className="mx-auto mt-10 flex w-[1600px] gap-5">
-        <div className="relative h-[334px] w-[620px] overflow-hidden rounded-lg bg-white/55 shadow-[0_12px_28px_rgba(61,88,161,0.08)]">
+        <div className="relative h-[336px] w-[620px] overflow-hidden rounded-[20px] bg-white/55 shadow-[0_12px_28px_rgba(61,88,161,0.08)]">
           <img
-            className="absolute bottom-0 left-1/2 h-[334px] w-[620px] -translate-x-1/2 object-cover transition-transform duration-500 hover:scale-[1.015]"
+            className="absolute inset-0 h-full w-full object-cover"
             src={assets.docsIllustration}
             alt=""
           />
         </div>
-        <div className="h-[334px] w-[960px] rounded-lg">
-          <div className="flex h-16 items-center rounded-lg bg-white px-6 shadow-[0_8px_20px_rgba(61,88,161,0.06)]">
+        <div className="h-[336px] w-[960px] rounded-[20px]">
+          <div className="flex h-16 items-center rounded-[20px] bg-white px-6 shadow-[0_8px_20px_rgba(61,88,161,0.06)]">
             <span className="grid h-7 w-7 place-items-center overflow-hidden rounded-full bg-gradient-to-br from-[#6b8eff] to-[#ffb05c]">
               <img className="h-5 w-5" src={assets.assistantIcon} alt="" />
             </span>
@@ -322,7 +373,7 @@ function AssistantSection() {
               提问
             </button>
           </div>
-          <div className="mt-3 overflow-hidden rounded-lg bg-[#f4fbf9] shadow-[0_8px_20px_rgba(61,88,161,0.06)]">
+          <div className="mt-3 overflow-hidden rounded-[20px] bg-[#f4fbf9] shadow-[0_8px_20px_rgba(61,88,161,0.06)]">
             <button
               className="flex h-16 w-full items-center border-b border-[#e8f1ee] bg-white px-6 text-left transition-colors duration-200 hover:bg-[#fbfcff] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7b8fcf]/30"
               onClick={() => setExpanded((value) => !value)}
